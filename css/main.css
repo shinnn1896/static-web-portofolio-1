@@ -1,0 +1,38 @@
+.home{
+display:flex;
+justify-content: center;
+align-items:center;
+height:30vh;
+flex-direction: column;
+}	
+
+video {position: fixed;top: 0; left: 0; width: 100%;
+    height: 100%; object-fit: cover;
+    z-index: -1;}
+
+.home .buttonh{
+      color: white;
+		  position: relative;
+		  padding: 1.4rem;
+		  border-radius: 10%;
+		  background-color: black;
+		  font-size: 1.4rem;
+		  font-weight: bold;
+		 
+		}
+		
+	.title1{
+	  position: relative;
+	  text-align: center;
+	  color: white;
+	  margin-top: 140px;
+	  animation: animatetop 1s;
+	}
+	.ns{
+	  align-content: center;
+	  margin: auto;
+	  display: flex;
+	  animation: animatetop 1s;
+	  position: relative;
+	}
+

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+   
+video {position: fixed;top: 0; left: 0; width: 100%;
+    height: 100%; object-fit: cover;
+    z-index: -1;}
+
+
+
+
+.navbar{
+		background: rgb(0,0,0,0.8); 
+		font-family: calibri; 
+		border-radius:2rem;
+		position: relative;
+		animation: animatetop 0.7s;	
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between; border-radius:2rem;
+		}
+		.logo{
+		  margin: 10px;
+			width: 86px;
+		}
+		li{
+			list-style: none; display: inline-block; text-decoration: none;
+		}
+		li a{
+			color: white; font-size: 25px; ; margin-right: 25px; font-family: Anton;
+		}
+		li a:hover{
+			color: red;
+            cursor: context-menu ;
+		}
+
+
+
+		.description{
+		  font-size: 1.4rem;
+		  color: white;
+		  text-align: center;																									
+		  margin-left:5%;
+		  margin-right:5%;
+		  font-family: Oswald;
+		  position:relative;
+		  animation: animatetop 1s;
+		}
+		
+	@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
