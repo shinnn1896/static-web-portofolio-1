@@ -31,10 +31,15 @@
   <h1>My Contact</h1> 
   <br>
   <div class="textc"> 
-  <p class="h">Email:</p>
-  <a href="mailto:raffiarjuna25@gmail.com" class="link">Click Here</a><br>
-  <p class="h">Whatsapp:</p><a href="https://wa.me/+6287785291576" class="link" target="_blank">Click Here</a>
-  <p class="h">Instagram:</p><a href="https://www.instagram.com/raff_1896/" class="link" target="_blank">Click Here</a><br>
+  <p class="h">Email:</p> <a class="link" onclick="copyToClipboard('raffiarjuna.dev@gmail.com')">raffiarjuna.dev@gmail.com</a> <br>
+  <a href="mailto:raffiarjuna.dev@gmail.com" class="link">Click Here</a><br>
+  <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text)
+        }
+  </script>
+  <p class="h">Whatsapp:</p><a href="../html/privacy.html" class="link" target="_blank">Click Here</a>
+  <p class="h">Instagram:</p><a href="../html/privacy.html" class="link" target="_blank">Click Here</a><br>
  
 
  </div>
